@@ -54,9 +54,8 @@ export default function Header() {
           <Offcanvas.Body>
             <Nav className='justify-content-end flex-grow-1 pe-3'>
               <Nav.Link id='home' className={isActive('home')} onClick={go_to}><i className='bi bi-house-fill d-md-none' />&nbsp;Home</Nav.Link>
-              <Nav.Link id='apply' className={isActive('apply')} onClick={go_to}><i className='bi bi-house-fill d-md-none' />&nbsp;Apply</Nav.Link>
-              <Nav.Link id='requirements' className={isActive('requirements')} onClick={go_to}><i className='bi bi-house-fill d-md-none' />&nbsp;Requirements</Nav.Link>
-              <Nav.Link id='status' className={isActive('status')} onClick={go_to}><i className='bi bi-house-fill d-md-none' />&nbsp;Status</Nav.Link>
+              <Nav.Link id='apply' className={isActive('apply')} onClick={go_to}><i className='bi bi-envelope-paper d-md-none' />&nbsp;Apply</Nav.Link>
+              <Nav.Link id='requirements' className={isActive('requirements')} onClick={go_to}><i className='bi bi-card-heading d-md-none' />&nbsp;Requirements</Nav.Link>
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>

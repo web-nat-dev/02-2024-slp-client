@@ -6,6 +6,10 @@ import cswdoslp from '../assets/images/cswdo-slp-logo.png'
 
 
 export default function Home() {
+  document.getElementsByTagName('meta')['description'].content = 'Ang Sustainable Livelihood Program, na kilala rin bilang SLP, ay isang community-based na programa, na nagbibigay ng capacity building upang mapabuti ang socio-economic status ng mga kalahok sa programa. Bilang bahagi ng Convergence Strategy, ang programa ay naglalayon na paglingkuran ang mga benepisyaryo ng Pantawid Pamilya, na umaasang mapanatili at palawakin sa kabila ng limang taong interbensyon ang mga benepisyong sosyo-ekonomiko na natamo.'
+  document.getElementsByTagName('meta')['keywords'].content = 'San Jose del Monte, Bulacan, DSWD, CSWDO, SLP, Sustainable Livelihood Program, Philippines, Apply, Application Form, Home'
+  document.title = 'Home | CSWDO-SLP'
+
   useDetectPage('home')
 
   const navigate = useNavigate()
