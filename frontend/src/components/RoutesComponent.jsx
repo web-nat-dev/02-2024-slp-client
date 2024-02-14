@@ -19,7 +19,7 @@ export default function RoutesComponent() {
           <Route path='/home' element={<Home />} />
           <Route path='/apply' element={<Application />} />
           <Route path='/requirements' element={<Requirements />} />
-          <Route path='/status' element={<ViewStatus />} />
+          <Route path='/status/:id' element={<ViewStatus />} />
         </Routes>
         <Footer />
     </Router>
